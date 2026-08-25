@@ -42,12 +42,81 @@ a {
     font-weight: 800;
 }
 
-.nav-links {
-  list-style-type: none; /* Removes bullet points */
-  display: flex;
-  gap: 24px; /* Creates clean spacing between each individual link */
-  margin: 0;
-  padding: 0;
+.menu a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/*sign-up*/
+.img {
+    height: 260px;
+    width: 600px;
+    background-color: #6c737d;
+    flex-grow: 0;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up div h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sign-up div p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.sign-up .hero {
+    width: 450px;
+}
+
+.sign-up .hero button, .blue div button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 38px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cart {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.img-cart {
+    height: 180px;
+    border: 4px solid #4863f8;
+    border-radius: 16px;
+}
+
+.cart-container, .img-cart {
+    width: 180px;
+}
+
+.some-random {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0;
 }
 
 .nav-links a {
