@@ -5,8 +5,12 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
+    font-family: Roboto, sans-serif;
+}
+/*Header-top*/
+.header, .footer {
+    background-color: #1F2937;
+    height: 540px;
 }
 
 .header-container {
