@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between; /* Pushes logo left, nav links right */
+  align-items: center; /* Centers items vertically */
+  padding: 16px 120px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9fafb;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none; /* Removes bullet points */
+  display: flex;
+  gap: 24px; /* Creates clean spacing between each individual link */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes text underlines */
+  color: #e5e7eb;
+  font-size: 18px;
+}
